@@ -1,4 +1,5 @@
 # SisMed
-Projeto de controle de pacientes e consultas simples desenvolvido em Java e SQLite.  
-**Usuário:** sismed  
-**senha:** admin
+Projeto simples para controle de pacientes e consultas, desenvolvido em Java e SQLite, iniciado no primeiro semestre de 2016.
+
+	Usuário: sismed
+	Senha: admin
