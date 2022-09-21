@@ -40,7 +40,6 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("SisMed - Login");
-        setPreferredSize(new java.awt.Dimension(400, 400));
         setResizable(false);
 
         txtUsuario.setText("Usuário:");
@@ -107,8 +106,8 @@ public class Login extends javax.swing.JFrame {
             painelLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, painelLoginLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(txtLogo, javax.swing.GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtLogo, javax.swing.GroupLayout.DEFAULT_SIZE, 281, Short.MAX_VALUE)
+                .addGap(14, 14, 14)
                 .addGroup(painelLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtUsuario)
                     .addComponent(txtSenha))
