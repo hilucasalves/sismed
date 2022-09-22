@@ -11,9 +11,7 @@
     <description>Builds, tests, and runs the project SisMed.</description>
     <import file="nbproject/build-impl.xml"/>
     <target name="-post-jar">
-        <copy todir="dist/data">
-            <fileset dir="data"/>
-        </copy>
+        <copy file="data.db" todir="dist"/>
     </target>
     <!--
 

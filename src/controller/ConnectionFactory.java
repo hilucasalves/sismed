@@ -54,7 +54,7 @@ public class ConnectionFactory {
 
     public void openConnection() {
         try {
-            setArquivo("data/clinica.db");
+            setArquivo("data.db");
             Class.forName("org.sqlite.JDBC");
             setConn(DriverManager.getConnection("jdbc:sqlite:" + getArquivo()));
         } catch (ClassNotFoundException | SQLException ex) {
