@@ -11,7 +11,11 @@ No diretório do projeto, execute:
 
 	ant
 
-Para acessar o sistema, insira:
+Para executar o SisMed, utilize o comando:
+
+	java -jar dist/SisMed.jar
+
+Para acessar o SisMed, utilize as credenciais:
 
 	Usuário: sismed
 	Senha: admin
